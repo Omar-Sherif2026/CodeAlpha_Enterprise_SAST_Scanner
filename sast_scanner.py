@@ -2,6 +2,7 @@ import os
 import re
 import json
 import argparse
+import webbrowser
 from datetime import datetime
 
 CUSTOM_RULES = [
@@ -120,7 +121,12 @@ class DevSecOpsScanner:
         """
         with open(output_filename, "w", encoding="utf-8") as f:
             f.write(html_content)
+        
         print(f"[+] HTML Report generated successfully: {output_filename}")
+        
+        # فتح التقرير تلقائياً فور الانتهاء
+        report_path = os.path.abspath(output_filename)
+        webbrowser.open(f"file://{report_path}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Enterprise DevSecOps SAST Scanner")
