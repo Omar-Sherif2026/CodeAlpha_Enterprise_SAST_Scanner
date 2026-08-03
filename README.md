@@ -71,6 +71,8 @@ Execute the scanner against any project directory (or the included test applicat
 
 <img width="1911" height="869" alt="لقطة شاشة 2026-08-04 004134" src="https://github.com/user-attachments/assets/8292b71e-8d91-4d48-bbf8-4d80e0c4a0f5" />
 
+<img width="1911" height="869" alt="لقطة شاشة 2026-08-04 004134" src="https://github.com/user-attachments/assets/b07bc86e-506e-44dd-a509-3aa77fb5dbee" />
+
 🛡️ Remediation Strategy & DevSecOps Best Practices
 Never Hardcode Secrets: Use environment variables or Secret Management solutions (e.g., HashiCorp Vault, AWS Secrets Manager).
 Parameterized Queries: Enforce the use of Prepared Statements or Object-Relational Mapping (ORM) frameworks to mitigate SQL Injection risks.
