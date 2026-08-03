@@ -67,6 +67,9 @@ Execute the scanner against any project directory (or the included test applicat
 -d, --dir: Target directory to audit (Default: current directory .).
 -o, --output: Output file name for the generated report (Default: sast_report.html).
 
+<img width="1910" height="1019" alt="لقطة شاشة 2026-08-04 004714" src="https://github.com/user-attachments/assets/b4088cd4-75b0-46f1-ab9e-cf2aaa358f92" />
+
+<img width="1911" height="869" alt="لقطة شاشة 2026-08-04 004134" src="https://github.com/user-attachments/assets/8292b71e-8d91-4d48-bbf8-4d80e0c4a0f5" />
 
 🛡️ Remediation Strategy & DevSecOps Best Practices
 Never Hardcode Secrets: Use environment variables or Secret Management solutions (e.g., HashiCorp Vault, AWS Secrets Manager).
